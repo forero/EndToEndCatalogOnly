@@ -24,5 +24,6 @@
 
 ```bash
 export DESISURVEY="input"
-python ~/surveysim/bin/surveysim --start 2019-10-1 --stop 2019-12-31 --seed 42
+python ~/surveysim/bin/surveysim --start 2019-10-1 --stop 2019-10-31 --save observed_tiles.fits --seed 42
+rm input/obsplan*.fits
 ```
