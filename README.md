@@ -24,5 +24,5 @@
 
 ```bash
 export DESISURVEY="input"
-python ~/surveysim/bin/surveysim --start 2019-08-28 --stop 2019-08-30 --save obstiles.fits --seed 42
+python ~/surveysim/bin/surveysim --start 2019-10-1 --stop 2019-12-31 --seed 42
 ```
