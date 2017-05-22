@@ -27,3 +27,8 @@ export DESISURVEY="input"
 python ~/surveysim/bin/surveysim --start 2019-10-1 --stop 2019-10-31 --save observed_tiles.fits --seed 42
 rm input/obsplan*.fits
 ```
+
+# 3. Generate the targets
+```bash
+python ~/desitarget/bin/select_mock_targets -c input/mock_inputs.yaml --output_dir input/
+```
