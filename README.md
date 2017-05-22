@@ -3,7 +3,7 @@
 # 1. Getting right the versions.
 
 ### surveysim
-`git checkout tags/0.3.1`
+`git checkout tags/0.5.0`
 
 ### desitarget
 `git checkout tags/0.9.0`
@@ -17,4 +17,12 @@
 ### desisim
 `git checkout tags/0.18.2`
 
+### desisurvey
+`git checkout tags/0.6.0`
+
 # 2. Generating the list of tiles to be observed
+
+```bash
+export DESISURVEY="input"
+python ~/surveysim/bin/surveysim --start 2019-08-28 --stop 2019-08-30 --save obstiles.fits --seed 42
+```
